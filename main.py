@@ -4,7 +4,12 @@ from diffusers import FluxPipeline, FluxTransformer2DModel
 from transformers import T5EncoderModel
 import torch
 import gc
+from huggingface_hub import login
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+login(token=os.getenv("HF_TOKEN"))
 
 def flush():
     gc.collect()

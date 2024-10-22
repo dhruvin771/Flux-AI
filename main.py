@@ -57,7 +57,9 @@ del pipeline
 flush()
 
 
-transformer_4bit = FluxTransformer2DModel.from_pretrained(ckpt_4bit_id, subfolder="transformer")
+transformer_4bit = FluxTransformer2DModel.from_pretrained(ckpt_4bit_id, subfolder="transformer",
+    low_cpu_mem_usage=False,
+    ignore_mismatched_sizes=True)
 pipeline = FluxPipeline.from_pretrained(
     ckpt_id,
     text_encoder=None,

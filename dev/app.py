@@ -51,7 +51,10 @@ with torch.no_grad():
     )
 
 
-pipeline = pipeline.to("cpu")
+device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+
+pipeline = pipeline.to(device)
+
 del pipeline
 
 flush()

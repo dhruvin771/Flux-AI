@@ -1,7 +1,7 @@
-### Title: Image Generation Using FLUX.1-dev and FLUX.1-Turbo-Alpha
+### Image Generation Using FLUX.1-dev and FLUX.1-Turbo-Alpha
 
 ### Description:
-This repository includes scripts for generating high-quality images on CPU or GPU using **FLUX.1-dev** and **FLUX.1-Turbo-Alpha** models by **AlimamaCreative Team**. Both models excel at text-to-image tasks, with **Turbo-Alpha** optimized for faster generation while maintaining quality.
+This repository includes scripts for generating high-quality images on CPU or GPU using **FLUX.1-dev** and **FLUX.1-Turbo-Alpha** models. Both models excel at text-to-image tasks, with **Turbo-Alpha** optimized for faster generation while maintaining quality.
 
 ### Key Features:
 - **FLUX.1-dev**: Ideal for detailed text-to-image generation, offering high fidelity with multi-head discriminators.

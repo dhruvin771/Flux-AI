@@ -13,7 +13,7 @@ Both models generate 1024x1024 images, enabling efficient creative workflows suc
 - **Text-to-Image Generation**: Converts prompts into high-quality images within seconds.
 
 <div style="background-color: white; border-radius: 10px; padding: 10px; display: inline-block;">
-  <img src="https://huggingface.co/alimama-creative/FLUX.1-Turbo-Alpha/resolve/main/images/T2I.png" alt="T2I Example" style="border-radius: 10px;">
+  <img src="./images/T2I.png" alt="T2I Example" style="border-radius: 10px;">
 </div>
 
 ### Technical Details:
